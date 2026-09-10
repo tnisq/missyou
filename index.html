@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>between.US</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <div class="noise"></div>
+    <canvas id="stars"></canvas>
+
+    <!-- INTRO -->
+    <main id="intro">
+        <div class="orbit">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <p class="eyebrow">Even miles away, you are the quiet heartbeat of my entire day</p>
+
+        <h1>
+            Some distances<br>
+            are measured in <em>miss yous.</em>
+        </h1>
+
+        <p class="intro-text">
+            you are missing part of my heart<br>
+            <strong>Missing you so badly</strong>
+        </p>
+
+        <button id="enterBtn">
+            <span>open this</span>
+            <b>→</b>
+        </button>
+    </main>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+
+        <div class="top-line">
+            <span>BETWEEN.US</span>
+            <span id="counter">01 / 04</span>
+        </div>
+
+        <!-- SCENE 1 -->
+        <div class="scene active" id="scene1">
+            <div class="giant-word">MISS</div>
+
+            <div class="message-card">
+                <span class="tiny">01 — THE TRUTH</span>
+
+                <h2>
+                    There’s something<br>
+                    <span>missing from my day</span>
+                </h2>
+
+                <p>
+                    And somehow, it always turns out to be you. Your voice. Your messages. Your little stories. Your
+                    presence. I can keep myself busy, but there’s always that quiet moment where my heart goes, “I wish
+                    she was here.”
+                </p>
+
+                <button class="next-btn" data-next="2">
+                    there's more <span>↓</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- SCENE 2 -->
+        <div class="scene" id="scene2">
+
+            <div class="memory-ring">
+                <div class="ring-text">I MISS YOU • I MISS YOU • I MISS YOU • </div>
+                <div class="ring-center">♡</div>
+            </div>
+
+            <div class="message-card right">
+                <span class="tiny">02 — CLOSE TO MY HEART, FAR FROM MY ARMS</span>
+
+                <h2>
+                    Everything<br>
+                    <span>reminds me YOu</span>
+                </h2>
+
+                <p>
+                    I didn’t realize how much of my everyday life had quietly become “you.”
+                    A thought I want to tell you. A song I want you to hear. Something funny that happens and my first
+                    instinct is to share it with you. Somehow, even when you’re not here, you’re still everywhere in my
+                    day.
+                </p>
+
+                <button class="next-btn" data-next="3">
+                    keep going <span>↓</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- SCENE 3 -->
+        <div class="scene" id="scene3">
+
+            <div class="heartbeat">
+                <div class="pulse"></div>
+                <div class="heart-symbol">♥</div>
+            </div>
+
+            <div class="message-card">
+                <span class="tiny">03 — THERE’S SO MUCH BEHIND THOSE WORDS</span>
+
+                <h2>
+                    THREE WORDS<br>
+                    aren’t <span>ENOUGH</span>
+                </h2>
+
+                <p>
+                    I keep saying “I miss you,” because I don’t know what else to call this feeling.
+                    But three words could never hold all of it. It’s the wanting to tell you every little thing, the
+                    wishing you were beside me, and that quiet feeling of “I just want my girl here.”
+                </p>
+
+                <button class="next-btn" data-next="4">
+                    find out <span>→</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- SCENE 4 -->
+        <div class="scene final-scene" id="scene4">
+
+            <div class="final-glow"></div>
+
+            <div class="final-content">
+                <span class="tiny">WHAT I REALLY WANTED YOU TO KNOW</span>
+
+                <div class="love-word">
+                    <span>I</span>
+                    <span class="heart">♥</span>
+                    <span>YOU</span>
+                </div>
+
+                <p class="final-message">
+                    I love you in the quiet moments.<br>
+                    I love you in the middle of random conversations.<br>
+                    I love you when we're laughing.<br>
+                    And honestly...
+                    <strong>I love you even more when I simply miss you.</strong>
+                </p>
+
+                <div class="signature">
+                    <span>so if you're wondering...</span>
+                    <strong>yes, I miss you.</strong>
+                    <small>more than I probably know how to say.</small>
+                </div>
+
+                <button id="againBtn">read it again ↻</button>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="cursor"></div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
